@@ -1,0 +1,20 @@
+{
+  "name": "fastify-banking-api",
+  "version": "1.0.0",
+  "description": "Banking API with Fastify plugins architecture (accounts, payments, loans)",
+  "main": "src/app.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "node src/app.js",
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "@fastify/jwt": "^8.0.1",
+    "@fastify/swagger": "^8.14.0",
+    "@fastify/swagger-ui": "^1.10.0",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.1",
+    "fastify-plugin": "^4.5.1",
+    "prom-client": "^15.1.3"
+  }
+}
